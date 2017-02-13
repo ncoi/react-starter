@@ -1,7 +1,7 @@
 # React starter with Webpack 2
-
+<p align="center"><img src="https://geeks.wego.com/content/images/2015/12/react-webpack-1.png"/></p>
 ## Prerequisites
-**Yarn:** This projects uses yarn as its package manager
+**Yarn:** This project uses yarn as its package manager
 
 ## Get Started
 `yarn install`
