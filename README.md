@@ -1,6 +1,6 @@
 # React starter with Webpack 2
 <p align="center"><img src="https://geeks.wego.com/content/images/2015/12/react-webpack-1.png"/></p>
-[![Build status: Windows](https://img.shields.io/appveyor/ci/ncoi/webpack2-react-starter/master.svg?style=flat-square)](https://ci.appveyor.com/project/ncoi/webpack2-react-starter/branch/master)
+[![Dependency Status](https://david-dm.org/ncoi/webpack2-react-starter.svg?style=flat-square)](https://david-dm.org/ncoi/webpack2-react-starter)
 ## Prerequisites
 1. **Install Yarn:** This project uses yarn as its package manager
 
