@@ -3,7 +3,9 @@ import './world.scss';
 
 const World = () => {
     return(
-        <h1 className="world">World</h1>
+        <div>
+            <h1 className="world">World</h1>
+        </div>
     );
 };
 

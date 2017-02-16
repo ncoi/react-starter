@@ -33,7 +33,7 @@ module.exports = {
                 loader: ExtractTextPlugin.extract(['css-loader','sass-loader'])
             },
             {
-                test: /\.(png|jpg)$/,
+                test: /\.(png|jpg|svg|gif)$/,
                 use: [
                     {
                         loader: 'url-loader',
