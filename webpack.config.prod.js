@@ -14,7 +14,7 @@ module.exports = {
     output: {
         path: './dist',                                                   // when using only webpack = ./ and when using webpack-dev-server = /
         filename: '[name].bundle.js',
-        publicPath: 'http://localhost:8080/'
+        publicPath: 'http://localhost:8000/'
     },
     module: {
         rules: [
@@ -38,6 +38,15 @@ module.exports = {
                     {
                         loader: 'url-loader',
                         options: { limit: 11000, name: 'images/[name].[ext]' }                   // Convert images < 10k to base64 strings
+                    }
+                ]
+            },
+            {
+                test: /\.(eot|svg|ttf|woff|woff2)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: { name: 'fonts/[name].[ext]'}
                     }
                 ]
             }

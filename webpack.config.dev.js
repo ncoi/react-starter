@@ -43,6 +43,15 @@ module.exports = {
                         options: { limit: 11000, name: 'images/[name].[ext]' }                   // Convert images < 10k to base64 strings
                     }
                 ]
+            },
+            {
+                test: /\.(eot|ttf|woff|woff2)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: { name: 'fonts/[name].[ext]'}
+                    }
+                ]
             }
         ]
     },
