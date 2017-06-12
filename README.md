@@ -27,4 +27,5 @@ Technologies used in this project
 |  [Redux](http://redux.js.org) |  Enforces unidirectional data flows and immutable, hot reloadable store. Supports time-travel debugging. Lean alternative to [Facebook's Flux](https://facebook.github.io/flux/docs/overview.html).|
 |  [Babel](http://babeljs.io) |  Compiles ES6 to ES5. Enjoy the new version of JavaScript today.    |
 | [Webpack](http://webpack.github.io) | Bundles npm packages and our JS into a single file. |
+| [Webpack dev server](http://webpack.github.io/docs/webpack-dev-server.html) | The webpack-dev-server is a little Node.js Express server, which uses the webpack-dev-middleware to serve a webpack bundle |
 | [Immutable.js](https://facebook.github.io/immutable-js/) | Library for creating Immutable collections of data, hugely popular for React/Redux development. |
