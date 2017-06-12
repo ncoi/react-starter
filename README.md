@@ -3,14 +3,14 @@
 
 [![Dependency Status](https://david-dm.org/ncoi/react-starter.svg?style=flat-square)](https://david-dm.org/ncoi/react-starter)
 
-## Prerequisites
-1. **Install Yarn:** This project uses yarn as its package manager
-
 ## Get Started
-`yarn install`
+1. **Install [Yarn](https://yarnpkg.com/lang/en/):** This project uses yarn as its package manager
+2. **Clone the project:** `https://github.com/ncoi/react-starter.git`
+
+## Running project
 
 #### For Development
-`yarn run start`: This will run webpack-dev-server which will serve the app at http://localhost:8080
+`yarn run build-dev`: This will run webpack-dev-server which will serve the app at http://localhost:8080
 
 #### For Production
-`yarn run build`: This will generate the build files for production
+`yarn run build-prod`: This will generate the build files for production
