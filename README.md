@@ -6,11 +6,25 @@
 ## Get Started
 1. **Install [Yarn](https://yarnpkg.com/lang/en/):** This project uses yarn as its package manager
 2. **Clone the project:** `https://github.com/ncoi/react-starter.git`
+3. **Install dependencies:** run `yarn install` to install all the project dependencies
 
 ## Running project
 
 #### For Development
-`yarn run build-dev`: This will run webpack-dev-server which will serve the app at http://localhost:8080
+```yarn run build-dev```  
+This will run webpack-dev-server which will serve the app at http://localhost:8080
 
 #### For Production
-`yarn run build-prod`: This will generate the build files for production
+```yarn run build-prod```  
+This will generate the build files for production
+
+## Technologies  
+Technologies used in this project
+
+| **Tech** | **Description** |
+|----------|-------|
+|  [React](https://facebook.github.io/react/)  |   Fast, composable client-side components.    |
+|  [Redux](http://redux.js.org) |  Enforces unidirectional data flows and immutable, hot reloadable store. Supports time-travel debugging. Lean alternative to [Facebook's Flux](https://facebook.github.io/flux/docs/overview.html).|
+|  [Babel](http://babeljs.io) |  Compiles ES6 to ES5. Enjoy the new version of JavaScript today.    |
+| [Webpack](http://webpack.github.io) | Bundles npm packages and our JS into a single file. |
+| [Immutable.js](https://facebook.github.io/immutable-js/) | Library for creating Immutable collections of data, hugely popular for React/Redux development. |
