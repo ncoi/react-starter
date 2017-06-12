@@ -10,4 +10,4 @@ yarn-error.log*
 node_modules/
 
 # Distribution file
-dist/
+build/
